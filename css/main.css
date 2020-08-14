@@ -108,6 +108,15 @@ body {
   height: 100%;
 }
 
+.header {
+  display: flex;
+  justify-content: center;
+  padding-right: 3em;
+  font-family: 'Permanent Marker', cursive;
+  color: white;
+
+}
+
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
   font-weight: 700;
@@ -145,6 +154,15 @@ p span {
   font-size: 1rem;
 }
 
+.footer {
+  display:flex;
+  justify-content: center;
+  padding-top: 2em;
+}
+
+.twitter, .facebook, .instagram {
+  padding-right: 2em;
+}
 
 
 
